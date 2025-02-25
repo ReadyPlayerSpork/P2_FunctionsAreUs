@@ -9,9 +9,11 @@ def intro ():
 #displays menu which provides the users options 
 def menu ():
     print("/nMenu")
-    print("1. Play a game")
-    print("2. Final record")
-    print("3.Quit")
+    print("1. Choose a team")
+    print("2. Play a game")
+    print("3. Final record")
+    print("4. Quit")
+    choice = input("Enter a choice (1-4): ")
+    return choice 
 
-    choice = input("Choose a number (1-3): ")
-    return choice
+    
