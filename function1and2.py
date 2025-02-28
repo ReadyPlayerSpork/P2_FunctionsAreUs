@@ -2,7 +2,7 @@
 def intro ():
     print("Welcome to the 2025 Women's Soccer Season")
     print("In this game, you will manage a women's soccer team, play games, and strive to win the championship! ")
-    name = input("What is your name? ")
+    name = input("What is your name? ").rstrip
     print(f"Welcome {name}! Get ready to lead your team to victory!")
     return name 
 
@@ -13,7 +13,5 @@ def menu ():
     print("2. Play a game")
     print("3. Final record")
     print("4. Quit")
-    choice = input("Enter a choice (1-4): ")
+    choice = int(input("Enter a choice (1-4): "))
     return choice 
-
-    
