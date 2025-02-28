@@ -11,10 +11,4 @@ def fnPlayGame(szHomeTeam, szOpponent):
     
     # Determine win/loss
     sResult = "W" if iHomeScore > iAwayScore else "L"
-    return {
-        "Home Team": szHomeTeam,
-        "Home Score": iHomeScore,
-        "Away Team": szOpponent,
-        "Away Score": iAwayScore,
-        "Result": sResult
-    }
+    return sResult
