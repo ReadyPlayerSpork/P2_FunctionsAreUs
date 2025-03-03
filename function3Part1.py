@@ -2,6 +2,8 @@
 # Call the function again to let the user choose the opponent but do not display the team they chose previously. 
 # Remove that team from the list.
 
+#Sydney (Trojahn) Hedges
+
 #show the list of Teams function
 def showTeams (teams) :
     print("Choose a team: ")
